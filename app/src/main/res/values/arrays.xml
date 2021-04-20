@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string-array name="nameProduct">
+            <item>Плафон для подвеса</item>
+            <item>Оливковое дерево штамб</item>
+            <item>Штукатурка декоративная</item>
+            <item>Фонарь аккумуляторный</item>
+            <item>Ресивер GoDigital</item>
+            <item>IP-камера Xiaomi Mi</item>
+        </string-array>
+
+    <string-array name="priceProduct">
+        <item>997 ₽/шт.</item>
+        <item>1 299 ₽/шт.</item>
+        <item>458 ₽/шт.</item>
+        <item>1 699 ₽/шт.</item>
+        <item>773 ₽/шт.</item>
+        <item>4 600 ₽/шт.</item>
+    </string-array>
+
+</resources>

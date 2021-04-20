@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestLM</string>
+    <string name="search">Поиск</string>
+    <string name="search_product">Поиск товаров</string>
+</resources>

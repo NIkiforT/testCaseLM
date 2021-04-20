@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="135dp"
+    android:layout_height="210dp"
+    android:padding="7dp">
+
+    <ImageView
+        android:id="@+id/imageProduct"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/price_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="950 ₽/шт."
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imageProduct"
+        app:layout_constraintTop_toBottomOf="@+id/imageProduct">
+    </TextView>
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Шторы зеленые 3,5м."
+        android:textColor="@color/black"
+        android:layout_marginStart="2dp"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@+id/price_text"
+        app:layout_constraintTop_toBottomOf="@+id/price_text">
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
